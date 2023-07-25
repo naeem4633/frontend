@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <section className='w-full relative top-0 mb-16'>
+    <section className='w-full relative top-0'>
         <div className='mx-auto w-5/6 flex flex-row justify-between py-2 tracking-wide'>
             <div className='w-3/5 flex flex-row justify-between'>
                 <img className='w-44 border border-black'></img>
@@ -22,7 +22,7 @@ const Header = () => {
         <div className='w-full border border-gray-200'>
             <div className='mx-auto w-5/6 flex flex-row justify-between py-3'>
                 <div className='flex flex-row space-x-10 items-center'>
-                    <div className='h-12 w-44 flex flex-row color-secondary rounded items-center justify-evenly p-2'>
+                    <div className='h-12 w-44 flex flex-row color-secondary rounded items-center justify-evenly p-2 hover:bg-[#96205d] transition-all duration-200  cursor-pointer'>
                         <img src='../static/images/menu.png' className='w-5 h-5'></img>
                         <p className='text-white'>Top Brands</p>
                         <img src='../static/images/down-arrow-white.png' className='w-5 h-5'></img>

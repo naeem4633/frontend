@@ -19,7 +19,7 @@ const ProductDetails = () => {
         'sample-image-7.jpg',
       ];
   return (
-    <section className='w-full relative flex flex-col tracking-wide'>
+    <section className='w-full relative flex flex-col tracking-wide mt-16'>
         <div className='mx-auto w-3/4 flex flex-row tracking-wide border border-black p-4'>
             <div className='w-1/2 flex flex-col'>
                 <div className='h-[60vh] border border-black'>
