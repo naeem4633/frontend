@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <section className='w-full absolute bottom-0 flex flex-col'>
+    <section className='w-full relative bottom-0 flex flex-col tracking-wide mt-16'>
         <div className='bg-black min-h-[60vh] mx-auto w-5/6 flex flex-col justify-between p-4'>
             <div className='w-full flex flex-row text-white text-sm justify-evenly'>
                 <ul className='w-1/5 space-y-4'>
@@ -30,7 +30,7 @@ const Footer = () => {
                 <ul className='w-1/5 space-y-4 pt-2'>
                     <p className='text-xl font-semibold py-2'>Company</p>
                     <li className='flex flex-row space-x-2 items-baseline'>About Us</li>
-                    <li className='flex flex-row space-x-2 items-baseline'>Contact us</li>
+                    <li className='flex flex-row space-x-2 items-baseline'>Contact Us</li>
                     <li className='flex flex-row space-x-2 items-baseline'>Privacy Policy</li>
                     <li className='flex flex-row space-x-2 items-baseline'>Terms & Conditions</li>
                     <li className='flex flex-row space-x-2 items-baseline'>Return & Exhange Policy</li>

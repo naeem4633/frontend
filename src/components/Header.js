@@ -2,8 +2,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <section className='w-full absolute top-0'>
-        <div className='mx-auto w-5/6 flex flex-row justify-between py-2'>
+    <section className='w-full relative top-0 mb-16'>
+        <div className='mx-auto w-5/6 flex flex-row justify-between py-2 tracking-wide'>
             <div className='w-3/5 flex flex-row justify-between'>
                 <img className='w-44 border border-black'></img>
                 <div className='flex flex-row items-center w-3/4'>
@@ -14,7 +14,7 @@ const Header = () => {
             <div className='flex flex-row items-center space-x-3'>
                 <img src='../static/images/phone.png' className='w-10 h-10'></img>
                 <div className='flex flex-col'>
-                    <p className='text-xl text-red-600'>+76 583 1110327</p>
+                    <p className='text-xl text-red-600 tracking-normal'>+76 583 1110327</p>
                     <p className='text-sm text-gray-500 tracking-wide'>Support Hours 09:00 - 20:00</p>
                 </div>
             </div>
