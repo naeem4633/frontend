@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.color-secondary{
+  background-color: #c82f7e;
+}
